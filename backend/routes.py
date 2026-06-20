@@ -43,7 +43,7 @@ async def upload_headshot (file : UploadFile = File(...)):
     )
     return{"url": url}
 
-@router.post(/"jobs",response_model= CreateJobResponse)
+@router.post("/jobs",response_model= CreateJobResponse)
 async def create_job(request: CreateJobRequest , session : Session = Depends
                      (get_session)):
     if request.num_thumbnails < 1 or request.num_thumbnails > 3:
