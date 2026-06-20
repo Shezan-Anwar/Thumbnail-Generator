@@ -93,3 +93,8 @@ async def process_job(job_id :str):
     #job ko mark karo failed ya compleleted 
         with Session(engine) as session :
             thumbnails = session.exec(select(Thumbnail).where(Thumbnail.job_id == job_id)).all()
+            all_failed = all( t.status =="failed" for t in thumbnails)
+            job = session.get(Job,job_id)
+            job.status = "failed" if all_failed else "completed"
+            session.add(job)
+            session.commit()
