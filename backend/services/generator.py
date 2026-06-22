@@ -12,7 +12,7 @@ STYLES = {
     "bold_dramatic": (
         "Create a bold, dramatic YouTube thumbnail with high contrast, "
         "cinematic lighting, dark moody background, and powerful composition. "
-        "\n\nThe person's face should be prominent with a dramatic expression."
+        "The person's face should be prominent with a dramatic expression."
     ),
     "clean_minimal": (
         "Create a clean, minimal YouTube thumbnail with bright lighting, "
