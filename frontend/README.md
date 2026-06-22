@@ -25,7 +25,7 @@ Unlike standard synchronous applications that block the server thread during hea
 
 ## 📋 API Endpoint Definitions
 
-| Method | Endpoint | Description | Payload Type |
+| Method | Endpoint | Description |
 | :--- | :--- | :--- | :--- |
 | `POST` | `/api/upload-headshot` | Accepts binary image streams, provisions cloud assets. |
 | `POST` | `/api/jobs` | Initializes database rows, spawns asynchronous AI task queues. |
