@@ -213,7 +213,7 @@ export default function App() {
             {phase === "generating" && (
               <div className="progress-banner">
                 <div className="spinner spinner--sm" aria-hidden="true" />
-                <p>AI is crafting your thumbnails — this may take a minute…</p>
+                <p>Your thumbnails are being crafted — this may take a minute…</p>
               </div>
             )}
             <ThumbnailGrid thumbnails={thumbnails} />
@@ -222,7 +222,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>ThumbForge · Powered by AI image generation</p>
+        <p>ThumbForge · Generate thumbnails with AI</p>
       </footer>
     </div>
   );

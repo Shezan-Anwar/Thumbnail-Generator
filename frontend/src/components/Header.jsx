@@ -7,7 +7,7 @@ export default function Header() {
         </span>
         <div>
           <h1 className="header__title">ThumbForge</h1>
-          <p className="header__tagline">AI-powered YouTube thumbnail generator</p>
+          <p className="header__tagline">AI-powered thumbnail generator</p>
         </div>
       </div>
     </header>
